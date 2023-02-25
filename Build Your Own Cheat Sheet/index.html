@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Cheat Sheet</title>
+    <link href="./resources/css/index.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Colors In CSS</h1>
+    <!--Color Table-->
+    <table>
+        <thead>
+            <tr>
+                <th>CSS Color Representation</th>
+                <th>Color Unit & Range</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Named Colors Row-->
+            <tr>
+                <th>Named Colors</th>
+                <td>
+                    <ul>
+                        <li>Uses letters to spell names of colors that can be idenified by different browsers</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul id="name">
+                        <li>Lime</li>
+                        <li>Blue</li>
+                        <li>Red</li>
+                    </ul>
+                </td>
+            </tr>
+            <!--Hexa Row-->
+            <tr>
+                <th>Hexadecimal/ Hex Colors</th>
+                <td>
+                    <ul>
+                        <li>Starts with # and uses 6 or 3 digits</li>
+                        <li>Uses 16 values represented from 0-9 then A-F</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul id="hex">
+                        <li>Lime: #00FF00 OR #0F0</li>
+                        <li>Blue: #0000FF OR #00F</li>
+                        <li>Red: #FF0000 OR #F00</li>
+                    </ul>
+                </td>
+            </tr>
+            <!--RGB-->
+            <tr>
+                <th>RGB <br>(red, blue green)</th>
+                <td>
+                    <ul>
+                        <li>Uses 3 values one for each red, blue, and green</li>
+                        <li>Range for values is 0-255</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul id="rgb">
+                        <li>rgb(0, 255, 0)[lime]</li>
+                        <li> rgb(0, 0, 255)[blue]</li>
+                        <li>rgb(255, 0, 0)[red]</li>
+                    </ul>
+                </td>
+            </tr>
+            <!--HSL-->
+            <tr>
+                <th>HSL<br>(Hue, Saturation, Lightness)</th>
+                <td>
+                    <ul>
+                        <li>Hue is measured in degrees from 0 to 360</li>
+                        <li>Saturation is a percentage value ranging from 0% (gray) to 100% (fully saturated)</li>
+                        <li>Lightness is also a percentage value, ranging from 0% (black) to 100% (white).</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul id="hsl">
+                        <li>Lime: HSL(120, 100%, 50%)</li>
+                        <li>Blue: HSL(240, 100%, 50%)</li>
+                        <li>Red: HSL(0, 100%, 50%)</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<footer>
+    <span>Created by: Francisco Vargas</span>
+</footer>
+</html>
+
+<!--C:\Users\Sisco\OneDrive\Desktop\projects\Build Your Own Cheat Sheet\index.html-->
