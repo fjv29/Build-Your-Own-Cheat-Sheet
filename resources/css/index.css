@@ -1,0 +1,46 @@
+body {
+    background-color: #396143;
+    font-family:'Courier New', Courier, monospace;
+}
+
+table{
+    background-color: black;
+    color:rgb(0, 255, 0);
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 255, 0);
+    text-align: center;
+    padding:10px;
+    width:900px;
+    margin:20px auto;
+}
+
+h1 {
+    width:300px;
+    margin:25px auto;
+    background-color: black;
+    border: 1px solid rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+#name{
+    width:50px;
+    margin:0 auto;
+}
+
+#hex {
+    width:225px;
+    margin:0 auto;
+}
+
+#rgb{
+    width:215px;
+    margin:0 auto;
+}
+
+#hsl {
+    width:250px;
+    margin:0 auto;
+}
